@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link type="text/css" rel="stylesheet" href="reset.css"/>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="box">
+	<div class="container">
+	<a href=http://gilt.com><img class= "logo" src="gilt_logo.png"></a>
+	<div class="parameters">
+	<h1>- Product search -</h1>
+	<form id="search-term">
+  	<ul>
+  		<li>
+	  		<label>Keyword(s):</label>
+	  		<input type="text" id="query" class="text" autocomplete="off" placeholder="keyword(s)" required/>
+      </li>
+      <li>
+				<label>Category:</label>
+     		<select name="store" class="store">
+	      	<option value="women">Women</option>
+	      	<option value="men">Men</option>
+	      	<option value="children">Children</option>
+	      	<option value="home">Home</option>
+      	</select>
+      </li>
+      <li>
+      	<label>Color:</label>
+	      <select name="color" class="color">
+	      	<option value="black">Black</option>
+	      	<option value="grey">Grey</option>
+	      	<option value="white">White</option>
+	      	<option value="brown">Brown</option>
+	      	<option value="beige">Beige</option>
+	      	<option value="green">Green</option>
+	      	<option value="blue">Blue</option>
+	      	<option value="purple">Purple</option>
+	      	<option value="red">Red</option>
+	      	<option value="pink">Pink</option>
+	      	<option value="yellow">Yellow</option>
+	      	<option value="orange">Orange</option>
+	      	<option value="miscellaneous">Miscellaneous</option>
+      	</select>
+			</li>
+      <input type="submit" id="submitButton" class="button" name="submit" value="Search"/>
+		</ul>
+	</form>
+	</div>
+	<div id="search-results">
+		<h1>Search Results</h1>
+		<ul class="results">
+		</ul>
+	</div>
+	</div>
+  <div class="new_search">
+  	<input type="submit" id="restartButton" class="button" name="new_search" value="New search"/> 
+  </div>
+  </div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="app.js"></script>	
+</body>
+</html>

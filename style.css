@@ -1,0 +1,112 @@
+body {
+	background-color: #000000;
+}
+
+.box {
+	background-color: rgba(255,255,255,0.7);
+	margin: 2em;
+	padding-bottom: 8em;
+}
+.container {
+	text-align: center;
+	opacity: 1;
+}
+
+.logo {
+	height: 50%;
+	width: 50%;
+	margin: 6em 1em 0em 1em;
+}
+
+h1 {
+	color: #333333;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2em;
+	margin: 1em;
+}
+
+.parameters {
+	margin: 1px auto;
+	text-align: center;
+}
+
+#search-terms {
+	text-align: left;
+}
+
+li {
+	margin: 1em;
+	text-align: left;
+}
+label {
+	color: #333333;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 1.5em;
+	margin: 1em;
+}
+button {
+	padding: 1em;
+	border-radius: 5px;
+	border: none;
+}
+
+#submitButton,
+#restartButton {
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	padding: 0.5em 1em;
+	font-size: 1.5em;
+	margin: 1em;
+	font-family: "Lato";
+	font-weight: 300;
+}
+
+#search-results {
+	display: none;
+	text-align: center;
+}
+
+#search-results h1 {
+	margin-bottom: 3em;
+}
+
+.brand {
+	font-weight: 500;
+}
+
+.name {
+	margin-top: 0.5em;
+}
+
+.results li {
+	display: inline-block;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.results p {
+	margin-top: 1em;
+}
+
+.results a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.new_search {
+	text-align: center;
+	display: none;
+}
+
+#restartButton {
+	margin-top: 4em;
+	margin-bottom: 0;
+}
